@@ -1,12 +1,14 @@
 public class Rectangle extends Shape {
 
-    private double width;
-    private double lenght;
+   public double width = 1.0;
 
-    public Rectangle(double width, double lenght) {
+    public Rectangle(String color, boolean filled, double width, double lenght) {
+        super(color, filled);
         this.width = width;
         this.lenght = lenght;
     }
+
+    public double lenght = 1.0;
 
     public double getWidth() {
         return width;
@@ -23,6 +25,11 @@ public class Rectangle extends Shape {
     public void setLenght(double lenght) {
         this.lenght = lenght;
     }
+
+    Rectangle () {
+
+   }
+
 
 
 
