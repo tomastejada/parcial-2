@@ -24,6 +24,7 @@ public class Rectangle extends Shape {
         this.lenght = lenght;
     }
 
-    
+
+
 
 }
