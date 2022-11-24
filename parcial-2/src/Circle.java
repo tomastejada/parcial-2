@@ -1,6 +1,11 @@
 public class Circle extends Shape {
 
     private double radius;
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
     private String color;
 
     public Circle () {
@@ -18,8 +23,5 @@ public class Circle extends Shape {
 
 
 
-
-
-
-
+    
 }
